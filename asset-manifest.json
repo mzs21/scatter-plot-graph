@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/scatter-plot-graph/static/js/main.ebd7a60d.js",
+    "static/js/787.b9f9250d.chunk.js": "/scatter-plot-graph/static/js/787.b9f9250d.chunk.js",
+    "index.html": "/scatter-plot-graph/index.html",
+    "main.ebd7a60d.js.map": "/scatter-plot-graph/static/js/main.ebd7a60d.js.map",
+    "787.b9f9250d.chunk.js.map": "/scatter-plot-graph/static/js/787.b9f9250d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ebd7a60d.js"
+  ]
+}
