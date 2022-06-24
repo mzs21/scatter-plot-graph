@@ -20,3 +20,4 @@ const useData = (URL: string) => {
 };
 
 export default useData;
+

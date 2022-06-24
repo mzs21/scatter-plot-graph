@@ -4,7 +4,22 @@
 
 @layer base {
   body {
-    @apply grid place-content-center bg-slate-600;
+    @apply grid place-content-center ;
+  }
+
+}
+
+@layer components{
+  .legend{
+    @apply ml-16 flex space-x-4;
+  }
+
+  .legend-box{
+@apply w-6 h-6 rounded-lg
+  }
+
+  .tooltip{
+    @apply absolute p-10 text-xs bg-blue-500 rounded-lg pointer-events-none;
   }
 
 }
