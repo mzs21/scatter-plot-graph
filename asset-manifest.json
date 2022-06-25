@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/scatter-plot-graph/static/css/main.4a8e86d6.css",
-    "main.js": "/scatter-plot-graph/static/js/main.43f98299.js",
+    "main.css": "/scatter-plot-graph/static/css/main.4a788b31.css",
+    "main.js": "/scatter-plot-graph/static/js/main.0929b64c.js",
     "static/js/787.b9f9250d.chunk.js": "/scatter-plot-graph/static/js/787.b9f9250d.chunk.js",
     "index.html": "/scatter-plot-graph/index.html",
-    "main.4a8e86d6.css.map": "/scatter-plot-graph/static/css/main.4a8e86d6.css.map",
-    "main.43f98299.js.map": "/scatter-plot-graph/static/js/main.43f98299.js.map",
+    "main.4a788b31.css.map": "/scatter-plot-graph/static/css/main.4a788b31.css.map",
+    "main.0929b64c.js.map": "/scatter-plot-graph/static/js/main.0929b64c.js.map",
     "787.b9f9250d.chunk.js.map": "/scatter-plot-graph/static/js/787.b9f9250d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a8e86d6.css",
-    "static/js/main.43f98299.js"
+    "static/css/main.4a788b31.css",
+    "static/js/main.0929b64c.js"
   ]
 }
