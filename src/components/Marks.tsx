@@ -3,7 +3,7 @@ import {
   DSVRowString,
   NumberValue,
   ScaleLinear,
-  ScaleTime
+  ScaleTime,
 } from "d3";
 
 interface IMarksProps {
@@ -12,10 +12,9 @@ interface IMarksProps {
   data: DSVParsedArray<any>;
   xValue: (d: DSVRowString<string>) => NumberValue;
   yValue: (d: DSVRowString<string>) => string;
-  toolTipFormat: any;
   circleRadius: number;
   doping: string[];
-  toolTipValue: any;
+  toolTipValue: string[];
 }
 const Marks = ({
   yScale,
@@ -23,12 +22,10 @@ const Marks = ({
   data,
   xValue,
   yValue,
-  toolTipFormat,
   circleRadius,
   doping,
-  toolTipValue
+  toolTipValue,
 }: IMarksProps) => {
-  
   let dopingArray = doping;
 
   let tooltip = toolTipValue;
@@ -47,12 +44,12 @@ const Marks = ({
           cy={yScale(+yValue(d))}
           r={circleRadius}
         >
-          {/* <div className="tooltip opacity-0">{tooltip}</div> 
-          
-          Can I use this div as a tooltip?
-          */} 
+          {/* <div className="tooltip">
+              {tooltip[data.indexOf(d)]}
+            </div> */}
+          {/* Can I use this div as a tooltip? */}
 
-          <title>{tooltip[data.indexOf(d)]}</title> 
+          <title>{tooltip[data.indexOf(d)]}</title>
           {/* Using title as tooltip */}
         </circle>
       ))}

@@ -51,7 +51,7 @@ function App() {
     (d: any) =>
       `${d.Name}:${d.Nationality}\nYear: ${d.Year}, Time: ${yAxisTickFormat(
         d.Time
-      )}\n${d.Doping}`
+      )}\n\n${d.Doping}`
   );
 
   console.log(tooltipValue);
@@ -115,7 +115,6 @@ function App() {
             data={data}
             xValue={xValue}
             yValue={yValue}
-            toolTipFormat={yAxisTickFormat}
             circleRadius={7}
             doping={dopings}
             toolTipValue = {tooltipValue}
