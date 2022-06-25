@@ -18,8 +18,22 @@
 @apply w-6 h-6 rounded-lg
   }
 
-  .tooltip{
-    @apply absolute p-10 text-xs bg-blue-500 rounded-lg pointer-events-none;
+  /* .component .tooltip{
+    @apply invisible ;
+  }
+  .component:hover .tooltip{
+    @apply visible;
   }
 
+    .text{
+    @apply stroke-black text-xs font-sans whitespace-pre;
+  }
+
+  .rect{
+    @apply fill-red-600 absolute w-2/4 h-12 rounded-lg;
+  }  */
+
+  /* .tooltip rect{
+    @apply absolute p-10 text-xs bg-blue-500 rounded-lg pointer-events-none;
+  } */
 }
