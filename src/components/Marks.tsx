@@ -75,7 +75,3 @@ const Marks = ({
 
 export default Marks;
 
-//  x={0}
-//           y={yScale(yValue(d))}
-//           width={xScale(xValue(d))}
-//           height={yScale.bandwidth()}
